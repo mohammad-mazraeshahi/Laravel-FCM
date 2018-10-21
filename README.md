@@ -18,7 +18,7 @@ It currently **only supports HTTP protocol** for :
 
 ## Installation
 
-To get the latest version of Laravel-FCM on your project, require it from "composer":
+To get the latest version of laravel-push-notification on your project, require it from "composer":
 
 
 	$ composer require mohammad-mazraeshahi/laravel-push-notification
@@ -81,7 +81,7 @@ class_alias(\LaravelFCM\Facades\FCM::class, 'FCM');
 class_alias(\LaravelFCM\Facades\FCMGroup::class, 'FCMGroup');
 ```
 
-Copy the config file ```fcm.php``` manually from the directory ```/vendor/brozot/laravel-fcm/config``` to the directory ```/config ``` (you may need to create this directory).
+Copy the config file ```fcm.php``` manually from the directory ```/vendor/mohammad-mazraeshahi/laravel-push-notification/config``` to the directory ```/config ``` (you may need to create this directory).
 
 
 ### Package Configuration
@@ -100,7 +100,7 @@ After the creation of your application on Firebase, you can find keys in `projec
 
 ## Basic Usage
 
-Two types of messages can be sent using Laravel-FCM:
+Two types of messages can be sent using laravel-push-notification:
 
 - Notification messages, sometimes thought of as "display messages"
 - Data messages, which are handled by the client app
@@ -201,7 +201,7 @@ $downstreamResponse->tokensWithError();
 
 A topics message is a notification message, data message, or both, that you send to all the devices registered to this topic.
 
-> Note: Topic names must be managed by your app and known by your server. The Laravel-FCM package or fcm doesn't provide an easy way to do that.
+> Note: Topic names must be managed by your app and known by your server. The laravel-push-notification package or fcm doesn't provide an easy way to do that.
 
 The following use statement is required for the examples below:
 
