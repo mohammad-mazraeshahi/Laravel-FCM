@@ -132,7 +132,7 @@ class DownstreamResponse extends BaseResponse implements DownstreamResponseContr
     private function parse($responseInJson)
     {
         if (array_key_exists(self::MULTICAST_ID, $responseInJson)) {
-            $this->messageId;
+            $this->messageId = $responseInJson[self::MULTICAST_ID];
         }
 
         if (array_key_exists(self::SUCCESS, $responseInJson)) {
@@ -409,5 +409,15 @@ class DownstreamResponse extends BaseResponse implements DownstreamResponseContr
     public function hasMissingToken()
     {
         return $this->hasMissingToken;
+    }
+
+    /**
+     * get FCM multicast_id
+     *
+     * @return string
+     */
+    public function getMassageId()
+    {
+        return $this->messageId;
     }
 }

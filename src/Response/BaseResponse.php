@@ -31,7 +31,7 @@ abstract class BaseResponse
     {
         $this->isJsonResponse($response);
         $this->logEnabled = app('config')->get('fcm.log_enabled', false);
-        $responseInJson = json_decode($response->getBody(), true);
+        $responseInJson = json_decode($response->getBody(), true , 512 , JSON_BIGINT_AS_STRING);
         $this->parseResponse($responseInJson);
     }
 
