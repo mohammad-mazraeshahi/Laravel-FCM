@@ -1,7 +1,7 @@
 # Laravel-FCM
 
-[![Build Status](https://travis-ci.org/brozot/Laravel-FCM.svg?branch=master)](https://travis-ci.org/brozot/Laravel-FCM) [![Coverage Status](https://coveralls.io/repos/github/brozot/Laravel-FCM/badge.svg?branch=master)](https://coveralls.io/github/brozot/Laravel-FCM?branch=master) [![Latest Stable Version](https://poser.pugx.org/brozot/laravel-fcm/v/stable)](https://packagist.org/packages/brozot/laravel-fcm) [![Total Downloads](https://poser.pugx.org/brozot/laravel-fcm/downloads)](https://packagist.org/packages/brozot/laravel-fcm)
-[![License](https://poser.pugx.org/brozot/laravel-fcm/license)](https://packagist.org/packages/brozot/laravel-fcm)
+[![Build Status](https://travis-ci.org/mohammad-mazraeshahi/laravel-push-notification.svg?branch=master)](https://travis-ci.org/mohammad-mazraeshahi/laravel-push-notification) [![Coverage Status](https://coveralls.io/repos/github/mohammad-mazraeshahi/laravel-push-notification/badge.svg?branch=master)](https://coveralls.io/github/mohammad-mazraeshahi/laravel-push-notification?branch=master) [![Latest Stable Version](https://poser.pugx.org/mohammad-mazraeshahi/laravel-push-notification/v/stable)](https://packagist.org/packages/mohammad-mazraeshahi/laravel-push-notification) [![Total Downloads](https://poser.pugx.org/mohammad-mazraeshahi/laravel-push-notification/downloads)](https://packagist.org/mohammad-mazraeshahi/laravel-push-notification)
+[![License](https://poser.pugx.org/mohammad-mazraeshahi/laravel-push-notification/license)](https://packagist.org/packages/mohammad-mazraeshahi/laravel-push-notification)
 
 ## Introduction
 
@@ -21,7 +21,7 @@ It currently **only supports HTTP protocol** for :
 To get the latest version of Laravel-FCM on your project, require it from "composer":
 
 
-	$ composer require brozot/laravel-fcm
+	$ composer require mohammad-mazraeshahi/laravel-push-notification
 
 
 Or you can add it directly in your composer.json file:
@@ -29,7 +29,7 @@ Or you can add it directly in your composer.json file:
 
 	{
     	"require": {
-        	    "mohammad-mazraeshahi/laravel-fcm": "^1.2"
+        	    "mohammad-mazraeshahi/laravel-push-notification": "^1.2"
     	}
 	}
 
