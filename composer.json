@@ -1,7 +1,7 @@
 {
-    "name": "mohammad-mazraeshahi/laravel-fcm",
+    "name": "mohammad-mazraeshahi/laravel-push-notification",
     "description": "Laravel / Lumen package for Firebase Cloud Messaging",
-    "keywords": ["laravel", "lumen", "firebase", "notification", "push", "fcm", "firebase cloud messaging"],
+    "keywords": ["laravel", "lumen", "firebase", "notification", "push", "fcm" , "gcm", "firebase cloud messaging"],
     "type": "library",
     "license": "MIT",
     "authors": [
